@@ -1,0 +1,100 @@
+@font-face {
+    font-family: Paris2024;
+    src: url(fonts/Paris2024/Paris2024-Variable.ttf);
+}
+
+body {
+    font-family: Paris2024 !important;
+    overflow: hidden;
+margin: auto;
+}
+button {
+    font-family: Paris2024 !important;
+    font-size: 20px;
+}
+
+h1 {
+    font-family: Paris2024;
+    font-size: 50px;
+    text-align: center;
+}
+
+.background {
+    background-image: url(images/bg.png);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.p-5 {
+    padding: 50px;
+}
+
+.p-3 {
+    padding: 30px;
+}
+
+.center {
+    display: flex; justify-content: center;
+}
+
+.display-block {
+    display: block;
+}
+
+.btn-st {
+    background-color: rgb(255, 255, 255, 0.5);
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+    text-align: left;
+    width: 100%;
+    height: 70px;
+    border-radius: 10px;
+    border: solid rgb(255, 255, 255);
+}
+
+
+
+.btn-dis {
+    background-color: rgb(255, 255, 255, 0.5);
+    padding: 10px;
+    padding-left: 20px;
+    align-items: center;
+    gap: 15px;
+    color: #fff;
+    text-align: left;
+    width: 100%;
+    height: 70px;
+    border-radius: 10px;
+    border: solid rgb(255, 255, 255);
+}
+
+
+
+.flex {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+h1 {
+    color: white;
+}
+
+
+
+
+
+.A {grid-area: "A";}
+.B {grid-area: "B";}
+.C {grid-area: "C";}
+.E {grid-area: "E";}
+
+.N1 {grid-area: "N1";}.N2 {grid-area: "N2";}.N3 {grid-area: "N3";}.N4 {grid-area: "N4";}
